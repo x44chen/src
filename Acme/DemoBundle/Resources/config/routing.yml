@@ -1,0 +1,4 @@
+# src/Acme/DemoBundle/Resources/config/routing.yml
+random:
+    path:     /random/{limit}
+    defaults: { _controller: AcmeDemoBundle:Random:index }
